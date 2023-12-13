@@ -1,18 +1,14 @@
 import { AppStackScreenProps } from "app/navigators"
 import { observer } from "mobx-react-lite"
 import React, { FC } from "react"
-import { useStores } from "app/models"
-import { useHeader } from "app/utils/useHeader"
 import { useSafeAreaInsetsStyle } from "app/utils/useSafeAreaInsetsStyle"
 import {
-  ImageStyle,
   TextStyle,
   View,
   ViewStyle,
 } from "react-native"
-import { Button, Text } from "app/components"
+import {  Text } from "app/components"
 import { colors, spacing } from "app/theme"
-import { isRTL } from "app/i18n"
 
 interface JobScreenProps extends AppStackScreenProps<"Job"> {}
 
@@ -61,20 +57,6 @@ const $bottomContainer: ViewStyle = {
   borderTopRightRadius: 16,
   paddingHorizontal: spacing.lg,
   justifyContent: "space-around",
-}
-const $welcomeLogo: ImageStyle = {
-  height: 88,
-  width: "100%",
-  marginBottom: spacing.xxl,
-}
-
-const $welcomeFace: ImageStyle = {
-  height: 169,
-  width: 269,
-  position: "absolute",
-  bottom: -47,
-  right: -80,
-  transform: [{ scaleX: isRTL ? -1 : 1 }],
 }
 
 const $welcomeHeading: TextStyle = {

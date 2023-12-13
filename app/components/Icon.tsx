@@ -104,6 +104,7 @@ export const iconRegistry = {
   pin: require("../../assets/icons/demo/pin.png"), // @demo remove-current-line
   podcast: require("../../assets/icons/demo/podcast.png"), // @demo remove-current-line
   settings: require("../../assets/icons/settings.png"),
+  share: require("../../assets/icons/share.png"),
   slack: require("../../assets/icons/demo/slack.png"), // @demo remove-current-line
   view: require("../../assets/icons/view.png"),
   x: require("../../assets/icons/x.png"),
