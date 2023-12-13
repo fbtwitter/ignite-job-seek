@@ -2,5 +2,6 @@ node_modules
 ios
 android
 .vscode
+.idea
 ignite/ignite.json
 package.json
